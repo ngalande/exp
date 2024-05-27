@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type = "text/xsl" href = "6b.xsl" ?>
+<!-- <students> -->
+    <VTU>
+        <USN>23434335354</USN>
+        <name>Mary Jane</name>
+        <college>DMI</college>
+        <YoJ>2012</YoJ>
+    </VTU>
+<!-- </students> -->

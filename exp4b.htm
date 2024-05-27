@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Program 3a</title>
+</head>
+<script type="text/javascript">
+
+function sub()
+{
+   const pattern =/[1-4][A-Z][A-Z][0-9][0-9][A-Z][A-Z][0-9][0-9][0-9]$/
+   const semPattern =/[1-8]$/
+    var usn = document.getElementById('usn')
+    var sem = document.getElementById('sem')
+   if(usn.value.match(pattern)){
+    alert('Valid USN')
+   }else{
+    alert(`Invalid USN`)
+   }
+   if(sem.value.match(semPattern)){
+      alert('Valid SEM')
+     }else{
+      alert(`Invalid SEM`)
+     }
+<!-- alert(`The original number is ${n} and the reverse is ${n < 0 ? -revNum : revNum}`) -->
+
+}
+
+
+</script>
+<body >
+   <form>
+    Enter USN: <input type="text" name="usn" id="usn">
+    <input type="submit" onclick="sub()">
+
+    Enter SEM: <input type="text" name="sem" id="sem">
+    <input type="submit" onclick="sub()">
+   </form>
+</body>
+</html>

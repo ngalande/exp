@@ -1,0 +1,21 @@
+<?xml-stylesheet type='text/css' href='6a.css' ?>
+<students>
+    <VTU>
+        <USN>20211055014</USN>
+        <name>John Doe</name>
+        <college>DMI</college>
+        <YoJ>2020</YoJ>
+    </VTU>
+    <VTU>
+        <USN>239239232</USN>
+        <name>Jane Doe</name>
+        <college>DMI</college>
+        <YoJ>2023</YoJ>
+    </VTU>
+    <VTU>
+        <USN>23434335354</USN>
+        <name>Mary Jane</name>
+        <college>DMI</college>
+        <YoJ>2012</YoJ>
+    </VTU>
+</students>

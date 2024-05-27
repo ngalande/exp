@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Program 3a</title>
+</head>
+<script type="text/javascript">
+
+function rev()
+{
+    var n = prompt("Enter a Number: ","");
+   var strNum = n.toString();
+   const revStr = strNum.split('').reverse().join('')
+   const revNum = parseInt(revStr, 10);
+
+alert(`The original number is ${n} and the reverse is ${n < 0 ? -revNum : revNum}`)
+
+}
+
+
+</script>
+<body >
+    <button onclick="rev()">Press me</button>
+</body>
+</html>
